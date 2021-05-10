@@ -16,7 +16,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    private RecyclerView recyclerView;
+    //private RecyclerView recyclerView;
     private List<Game> listaGames = new ArrayList<>();
 
 
@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
         montarLista();
 
-        recyclerView = findViewById(R.id.recyclerView);
+        /*recyclerView = findViewById(R.id.recyclerView);
 
         Adapter adaptador = new Adapter(listaGames);
 
@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(layoutManager);
         recyclerView.setHasFixedSize(true);
         recyclerView.addItemDecoration(new DividerItemDecoration(this, LinearLayout.VERTICAL));
-        recyclerView.setAdapter(adaptador);
+        recyclerView.setAdapter(adaptador);*/
 
 
 
