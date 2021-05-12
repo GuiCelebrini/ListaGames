@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:background="@color/corDeFundo"
     android:orientation="vertical">
 
     <ImageView
@@ -24,6 +25,7 @@
         android:layout_marginLeft="16dp"
         android:layout_marginTop="8dp"
         android:text="titulo"
+        android:textColor="@android:color/white"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintStart_toEndOf="@+id/imageView"
@@ -35,6 +37,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="lancamento"
+        android:textColor="@android:color/white"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="@+id/textTitulo"
         app:layout_constraintTop_toBottomOf="@+id/textTitulo" />
@@ -44,6 +47,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView"
+        android:textColor="@android:color/white"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textLancamento"
